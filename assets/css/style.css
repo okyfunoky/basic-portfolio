@@ -1,0 +1,40 @@
+body {
+    background-image: url('../images/wavy-dots.png');
+}
+
+header {
+    background-color: red;
+    width: 20px;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: green;
+    position: fixed;
+    right: 0;
+}
+
+.nav-list-item {
+    display: inline;
+    background-color: blue;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: darkgray;
+    border-style: solid;
+    border-color: green;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    font-size: 8px;
+}
+
+#name-box {
+    width: 20px;
+}
