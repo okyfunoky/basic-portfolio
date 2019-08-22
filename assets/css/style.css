@@ -28,7 +28,7 @@ h3 {
 
 .nav-list-item {
     display: flex;
-    background-color: blue;
+    background-color: salmon;
     width: 33.33%;
     justify-content: center;
 }
