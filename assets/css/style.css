@@ -9,6 +9,10 @@ p {
     font-size: 24px;
 }
 
+h3 {
+    margin-left: 20px;
+}
+
 .top-bar {
     display: flex;
     width: 100%;
@@ -119,3 +123,19 @@ footer {
     display: block;
 }
 
+.input-field {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.message-form {
+    width: 90%;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
