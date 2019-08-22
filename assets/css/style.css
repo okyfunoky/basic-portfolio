@@ -30,10 +30,11 @@ h3 {
 
 .nav-list-item {
     display: flex;
-    background-color: salmon;
     width: 33.33%;
     justify-content: center;
     text-align: center;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
 }
 
 .about-me {
@@ -59,29 +60,30 @@ footer {
     /* padding-left: 20px; */
     /* padding-right: 20px; */
     padding: 20px;
-    background-color: azure;
+    background-color: green;
     height: 100%;
     text-align: center;
     font-size: 24px;
     align-content: center;
     box-sizing: border-box;
     display: block;
+    color: white;
 }
 
-#horizonitalGreyLine{
+/* #horizonitalGreyLine{
     width: 90%;
     height: 10px;
     background-color: green;
     text-align: center;
     margin: 20px;
-}
+} */
 
 .page-container {
     display: grid;
 }
 
 .top-container {
-    background-color: green;
+    background-color: white;
     flex-wrap: wrap;
     justify-content: space-between;
     justify-self: center;
@@ -98,7 +100,7 @@ footer {
 
 .mainBody {
     margin-top: 20px;
-    background-color: lightgrey;
+    background-color: white;
     display: block;
     margin: 20px;
     width: 960px;
