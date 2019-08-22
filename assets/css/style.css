@@ -156,6 +156,7 @@ footer {
 
 #portrait {
     float: left;
+    margin-right: 20px;
 }
 
 .continued-content {
