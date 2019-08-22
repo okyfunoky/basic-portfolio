@@ -16,10 +16,12 @@ h3 {
     display: flex;
     width: 100%;
     justify-content: center;
+    height: 100%;
 }
 
 .nav-list {
     width: 35%;
+    align-items: center;
 }
 
 .name,.nav-list {
@@ -31,6 +33,7 @@ h3 {
     background-color: salmon;
     width: 33.33%;
     justify-content: center;
+    text-align: center;
 }
 
 .about-me {
@@ -53,11 +56,16 @@ footer {
 
 .name {
     width: 20%;
-    /* margin: 20px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    padding: 20px;
     background-color: azure;
     height: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
+    align-content: center;
+    box-sizing: border-box;
+    display: block;
 }
 
 #horizonitalGreyLine{
@@ -78,11 +86,12 @@ footer {
     justify-content: space-between;
     justify-self: center;
     display: flex;
-    width: 50%;
+    width: 960px;
 }
 
 .background {
-    background-image: url('../images/wavy-dots.png');
+    /* background-image: url('../images/wavy-dots.png'); */
+    background-image: url('../images/kindajean.jpg');
     display: grid;
     border-top: 1px solid gray;
 }
@@ -92,7 +101,7 @@ footer {
     background-color: lightgrey;
     display: block;
     margin: 20px;
-    width: 50%;
+    width: 960px;
     justify-self: center;
 }
 
