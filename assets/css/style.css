@@ -104,6 +104,13 @@ footer {
     margin: 20px;
 }
 
+.project {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+}
+
 #portrait {
     float: left;
 }
