@@ -1,26 +1,36 @@
 body {
     background-image: url('../images/wavy-dots.png');
+    margin: auto;
 }
 
-header {
+p {
+    text-align: left;
+    line-height: 150%;
+    font-size: 24px;
+}
+
+.top-bar {
     background-color: red;
-    width: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
-.nav-list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: green;
-    position: fixed;
-    right: 0;
+.nav-list {
+    width: 60%;
+}
+
+.name,.nav-list {
+    display: flex;
 }
 
 .nav-list-item {
-    display: inline;
+    display: flex;
     background-color: blue;
+    width: 33.33%;
+    justify-content: center;
 }
+
 
 footer {
     width: 100%;
@@ -37,4 +47,44 @@ footer {
 
 #name-box {
     width: 20px;
+}
+
+#portrait {
+    float: left;
+}
+
+#horizonitalGreyLine{
+    width: 90%;
+    height: 10px;
+    background-color: lightgray;
+}
+
+#firstParagraph {
+    float: left;
+    margin-right: 20px;
+}
+
+.page-container {
+    display: grid;
+}
+
+.top-container {
+    background-color: green;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-self: center;
+    display: flex;
+    width: 50%;
+}
+.mainBody{
+    width: 50%;
+    justify-self: center;
+}
+
+.mainBody {
+    margin-top: 20px;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    margin: 20px;   
 }
