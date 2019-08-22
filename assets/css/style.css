@@ -10,7 +10,6 @@ p {
 }
 
 .top-bar {
-    background-color: red;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -31,6 +30,10 @@ p {
     justify-content: center;
 }
 
+.about-me {
+    display: flex;
+    justify-self: flex-start;
+}
 
 footer {
     width: 100%;
@@ -49,19 +52,12 @@ footer {
     width: 20px;
 }
 
-#portrait {
-    float: left;
-}
-
 #horizonitalGreyLine{
     width: 90%;
     height: 10px;
-    background-color: lightgray;
-}
-
-#firstParagraph {
-    float: left;
-    margin-right: 20px;
+    background-color: green;
+    text-align: center;
+    margin: 20px;
 }
 
 .page-container {
@@ -76,15 +72,39 @@ footer {
     display: flex;
     width: 50%;
 }
-.mainBody{
-    width: 50%;
-    justify-self: center;
-}
 
 .mainBody {
     margin-top: 20px;
     background-color: lightgrey;
-    padding: 10px;
-    display: flex;
-    margin: 20px;   
+    display: block;
+    margin: 20px;
+    width: 50%;
+    justify-self: center;
+}
+
+.portrait-section {
+    display: inline-flex;
+    margin: 20px;
+}
+
+.continued-content {
+    display: inline-flex;
+    margin: 20px;
+}
+
+.title-bar {
+    display: block;
+    justify-content: flex-start;
+}
+
+#portrait {
+    justify-content: baseline;
+}
+
+.continued-content {
+    display: block;
+}
+
+.about-me {
+    margin: 20px;
 }
