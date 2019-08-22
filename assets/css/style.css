@@ -1,5 +1,4 @@
 body {
-    background-image: url('../images/wavy-dots.png');
     margin: auto;
 }
 
@@ -80,6 +79,12 @@ footer {
     justify-self: center;
     display: flex;
     width: 50%;
+}
+
+.background {
+    background-image: url('../images/wavy-dots.png');
+    display: grid;
+    border-top: 1px solid gray;
 }
 
 .mainBody {
